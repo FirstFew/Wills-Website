@@ -1,30 +1,42 @@
-body{
-    margin:0;
+
+#grid{
+    margin: .5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
 }
 
+
+
 .list_group{
-    border: .5em solid;
-    border-radius: .5em;
-    float: left;
-    width: 23%;
+    border: .5rem outset;
+    border-radius: .5rem;
+    padding: 0rem .5rem;
 }
 
 .list_group h3{
     text-align: center;
 }
 
+.list_group ul li{
+    margin: .5rem 0rem;
+}
+
 #Cat_1{
     background-color: rgb(253, 110, 110);
     border-color: red;
 }
+
 #Cat_2{
     background-color: rgb(255, 208, 121);
     border-color: orange;
 }
+
 #Cat_3{
     background-color: lightgreen;
     border-color:green;
 }
+
 #Cat_4{
     background-color: lightblue;
     border-color:blue;

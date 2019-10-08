@@ -15,3 +15,7 @@ Header{
     margin: default;
     text-align: center;
 }
+
+.clr{
+    clear: both;
+}
